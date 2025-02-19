@@ -104,6 +104,72 @@
 
 
 // cron jobs 
+// * *  * * *
 
 
-* *  * * *
+
+
+//crete a repo 
+//setup locally ins
+// git init  tointialixe h\the 7
+// git status 
+// git add . 
+// git status 
+// git status to check tthe status
+// git commit :
+// add remote 
+// git push 
+
+// git init – Initialize a new Git repository
+// git clone <repo-url> – Clone an existing repository
+// git status – Check the status of the working directory
+// git add <file> – Stage a specific file
+// git add . – Stage all changes
+// git commit -m "commit message" – Commit staged changes with a message
+// git push origin <branch> – Push local changes to GitHub
+// git pull origin <branch> – Fetch and merge changes from GitHub
+
+
+// example of the page 
+// import "./styles.css";
+// import QsocTable from "./Test";
+
+// import React from "react";
+
+// const App = () => {
+//   return (
+//     <div className="min-h-screen flex flex-col">
+//       {/* Header */}
+//       <Header />
+//       <Sidebar />
+//       <Mainvontent />
+//       <footer />
+
+//       {/* Sidebar */}
+
+//       {/* Main Content */}
+
+//       {/* Footer */}
+//     </div>
+//   );
+// };
+
+// export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+// splice fucntion 
+// let arr = ['a', 'b', 'c', 'd'];
+// arr.splice(1, 2, 'newItem'); // Result: ['a', 'newItem', 'd']
+
+// slicing function 
+// string.slice(startingIndex, endingIndex);

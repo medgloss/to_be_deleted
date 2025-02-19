@@ -75,21 +75,18 @@ hof
 cron
 construction of pages and components , 
 flow of components 
-,
+github
+splicing of array , slicing or string in js 
 
 
 
 
-#github
+
+
+
+
+
 react-routing 
 deployment - netlify, render,vercel 
-sliing function 
 
 
-//crete a repo 
-//setup locally ins
-git init  tointialixe h\the 7
-git add . 
-git status to check tthe status
-git commit :
-git push 
