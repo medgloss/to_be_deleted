@@ -70,7 +70,7 @@ hof
 
 
 
-date 19-02-2-25:
+date 19-02-2025:
 hof
 cron
 construction of pages and components , 
@@ -86,7 +86,17 @@ splicing of array , slicing or string in js
 
 
 
+date 20-02-2025:
 react-routing 
-deployment - netlify, render,vercel 
 
 
+
+date 21-02-2025:
+reviosin of previous topic
+
+
+
+
+
+date 22-02-2025:
+making of a dashboard 
