@@ -1,31 +1,22 @@
-import React, { useEffect, useState } from "react";
+import { useSelector, useDispatch } from 'react-redux';
+import { increment, decrement,  reset } from '../counterSlice';
+import { RootState, AppDispatch } from '../store';
+import React, { useState } from 'react';
 
-
-export default function Dropdown() {
-  const [value  , setvalue] = useState<string>("abc")  
-
-  function  handlechange(event:React.ChangeEvent<HTMLSelectElement>){
-    console.log(event)
-    setvalue(event.target.value )
-
-    console.log("i reached here")
-  }
-
+const Counter: React.FC = () => {
+  const count = useSelector((state: RootState) => state.counter.value);
+  const dispatch = useDispatch<AppDispatch>();
+  const [incrementValue, setIncrementValue] = useState<number>(0);
 
   return (
-  <>
-<div>selct a drop down dropdown</div>
-<div>
-  <select id="dropdown"value={value}onChange={handlechange}>
-    <option value="apple">apple</option>
-    <option value="orange">orange</option>
-    <option value="berry">berry</option>
-  
-  </select>
-  <div>selected : {value}</div>
-
-
-  </div>
-</>
+    <div>
+      <h1>Counter: {count}</h1>
+      <button onClick={() => dispatch(increment())}>+</button>
+      <button onClick={() => dispatch(decrement())}>-</button>
+      <button onClick={() => dispatch(reset())}>Reset</button>
+      
+    </div>
   );
-}
+};
+
+export default Counter;

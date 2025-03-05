@@ -10,41 +10,14 @@ import  TableFour from './components/TableFour.tsx';
 import TableFive  from './components/TableFive.tsx';
 
 import './styles/App.css';
-
-
-
-
-
-
-// Separate component for navigation logic
-function NavigationButton() {
-  const navigate = useNavigate()
-  
-  const handleClick = () => {
-    navigate("/about")
-  }
-  
-  return <button onClick={handleClick}>about</button>
-}
+import Counter from './componets/dropdown.tsx'
 
 function App() {
   
 
   return (
     <div className="container">
-    <div className="top-row">
-    <div className="top-row-1">
-      <TableOne /></div>
-      <TableOne />
-      <TableOne />
-      {/* <TableThree /> */}
-    </div>
-    
-    <div className="bottom-row">
-    <div className="bottom-row-1">
-    <TableOne /></div>
-      <div className="bottom-row-1">  <TableOne /> </div>
-    </div>
+ <Counter />
   </div>
   )
 }

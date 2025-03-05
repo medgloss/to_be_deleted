@@ -16,6 +16,7 @@
     "@mui/x-data-grid-generator": "^7.25.0",
     "@mui/x-data-grid-premium": "^7.25.0",
     "@mui/x-data-grid-pro": "^7.25.0",
+    "@reduxjs/toolkit": "^2.6.0",
     "@tailwindcss/vite": "^4.0.8",
     "axios": "^1.7.9",
     "bootstrap": "^5.3.3",
@@ -25,6 +26,7 @@
     "react-dom": "^18.3.1",
     "react-dropdown": "^1.11.0",
     "react-leaflet": "^5.0.0",
+    "react-redux": "^9.2.0",
     "react-router-dom": "^7.2.0",
     "react-select": "^5.10.0",
     "tailwindcss": "^4.0.8"
